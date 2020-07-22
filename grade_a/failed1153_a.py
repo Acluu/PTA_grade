@@ -9,7 +9,7 @@ def need1(case, par):
     for i in range(N):
         if backstudentdic[i][1] == par:
             newdic.append(backstudentdic[i])
-    outdic = sorted(newdic, key= lambda x:x[5], reverse=True)
+    outdic = sorted(newdic, key= lambda x: x[5], reverse=True)
     if not outdic:
         print(f'Case {case + 1}: 1 {par}')
         print('NA')
